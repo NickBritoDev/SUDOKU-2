@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  font-family: 'Koulen', cursive;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: aliceblue;
+  padding: 0;
+  border-radius: 0px !important;
+}
+
+.wellcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../images/back2.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.wellcome2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../images/back3.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.wellcome3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../images/back4.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+.btn-play {
+  width: 190px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px !important;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.btn-play h1 {
+  background-color: blue;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.btn-play i {
+  background-color: transparent;
+}
+
+.btn-play h1 ion-icon {
+  background-color: transparent;
+  color: black;
+}
+
+.btn-rules {
+  margin-top: 5px;
+}
+
+.btn-rules h1 {
+  color: blue;
+  background-color: aliceblue;
+}
+
+.btn-hard {
+  color: aliceblue;
+  background-color: blue;
+  margin-top: 5px;
+}
+
+.fa-book {
+  color: blue;
+}
+
+.list-rules li {
+  font-family: 'Roboto', sans-serif !important;
+  padding-bottom: 10px;
+}
+
+.list-rules p {
+  font-family: 'Roboto', sans-serif !important;
+  color: red;
+  text-transform: uppercase;
+}
+
+.btn-return {
+  padding: 15px 35px;
+  margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: none;
+}
